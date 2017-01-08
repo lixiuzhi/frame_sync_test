@@ -25,7 +25,7 @@ public class MoveCMD:CMD
 {
     public int actorServerID = -1;
     public Int3 dir;
-    public int speed = 1;
+    public int speed =3;
     public override void Exec()
     { 
         var actor =  ActorManager.Singleton.GetActorByServerID(actorServerID);

@@ -46,7 +46,7 @@ public class FrameUpdate : SingletonMonoBehaviour<FrameUpdate> {
         // var cmd = new MoveCMD { actorServerID = ActorManager.Singleton.GetPlayer().ServerId, dir = dir, speed = 2 };
         moveCMD.actorServerID = ActorManager.Singleton.GetPlayer().ServerId;
         moveCMD.dir = InputManager.Singleton.moveDir;
-        moveCMD.speed = 2;
+        moveCMD.speed = 6;
         moveCMD.framID = ServerCurFrame + 1;
 
         //  Debug.LogError(moveCMD.dir.ToString());

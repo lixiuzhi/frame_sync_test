@@ -18,7 +18,7 @@ public class Server
     /// <summary>  
     /// IP地址  
     /// </summary>  
-	public string TcpIP = "192.168.1.104"; 
+	public string TcpIP = "127.0.0.1"; 
 
     /// <summary>  
     /// 默认地址池  
@@ -38,15 +38,14 @@ public class Server
         get { return ServerRunTCP; }
     }
 
-    public int MustClientNum = 1;
+    public int MustClientNum = 2;
 
     public long SyncStartTime = 0;
-
-    private static int MAGIC_NUMBER = 888;
+    
     private static int RECEIVE_MAX_SIZE = 1024 * 30;
 
     //
-    public long frameDelta = 100;
+    public long frameDelta = 50;
     public long frameID=0;
     public bool isSyncStart = false;
 
@@ -132,7 +131,7 @@ public class Server
         {
             isSyncStart = true;
             //StartCoroutine(Sync());
-			Timer tmr = new Timer(Sync, "sync",10, 100);
+			Timer tmr = new Timer(Sync, "sync",10, frameDelta);
 			SyncStartTime = (System.DateTime.Now.Ticks +10 )/ 10000;
 			foreach (var v in clients)
 			{
