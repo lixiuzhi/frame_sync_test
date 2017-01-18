@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6EAD49EC-84A9-58BB-C2B3-3CBFF75C7F5E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile>Assets\smcs.rsp</CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.4.0f3</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Debugger">
+      <HintPath>Assets\plugins\Debugger.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Assets\plugins\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.ClipperLib">
+      <HintPath>Assets\Scripts\Actor\AI\AstarPathfindingProject\Plugins\Clipper\Pathfinding.ClipperLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+      <HintPath>Assets\Scripts\Actor\AI\AstarPathfindingProject\Plugins\DotNetZip\Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.Poly2Tri">
+      <HintPath>Assets\Scripts\Actor\AI\AstarPathfindingProject\Plugins\Poly2Tri\Pathfinding.Poly2Tri.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="frame_sync_client.Plugins.csproj">
+      <Project>{51503021-8BF4-0903-D053-340CADE52943}</Project>
+      <Name>frame_sync_client.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\ABPath.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\AI\NavmeshController.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\AI\Seeker.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\AstarData.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\AstarMath.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\AstarPath.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\BinaryHeapM.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\FloodPath.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\GraphNodeRasterizer.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\GraphUpdateScene.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\GraphUpdateShape.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\Misc\AStarDebug.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\Misc\AstarDebugger.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\Misc\AstarEnumFlagAttr.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\Misc\BinaryHeap.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\Misc\GraphEditorBase.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\Misc\GraphModifier.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\Misc\GraphUpdateProcessor.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\Misc\ListPool.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\Misc\NodeLink.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\Misc\ObjectPool.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\Misc\PathPool.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\Misc\PathProcessor.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\Misc\PathReturnQueue.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\Misc\StackPool.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\Misc\ThreadControlQueue.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\Misc\WindowsStoreCompatibility.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\Misc\WorkItemProcessor.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\ModifierConverter.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\ModifierData.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\Nodes\GraphNode.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\Path.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\PathHandler.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\RVO\RVOAgent.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\RVO\RVOCoreObstacle.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\RVO\RVOCoreSimulator.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\RVO\RVOLine.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\RVO\RVOQuadtree.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\RVO\Simulator.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\Serialization\JsonConverters.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\Serialization\JsonSerializer.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\Serialization\SimpleJsonReplacement.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\Serialization\SimpleZipReplacement.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\Serialization\TinyJson.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Core\astarclasses.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Generators\Base.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Generators\NavMeshGenerator.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Generators\NodeClasses\PointNode.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Generators\NodeClasses\TriangleMeshNode.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Generators\PointGenerator.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Generators\QuadtreeGraph.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Generators\RecastGenerator.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Generators\Utilities\BBTree.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Generators\Utilities\EuclideanEmbedding.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Generators\Utilities\MyTileHandler.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Generators\Utilities\NavMeshRenderer.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Generators\Utilities\ObjImporter.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Generators\Utilities\PointKDTree.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Generators\Utilities\RecastBBTree.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Generators\Utilities\RecastMeshGatherer.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Generators\Utilities\RecastMeshObj.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Generators\Utilities\TileHandler.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Generators\Utilities\Voxels\DebugUtility.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Generators\Utilities\Voxels\VoxelClasses.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Generators\Utilities\Voxels\VoxelContour.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Generators\Utilities\Voxels\VoxelMesh.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Generators\Utilities\Voxels\VoxelPolygonClipper.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Generators\Utilities\Voxels\VoxelRasterization.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Generators\Utilities\Voxels\VoxelRegion.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Generators\Utilities\Voxels\VoxelUtility.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Modifiers\FunnelModifier.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Modifiers\Modifiers.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Modifiers\StartEndModifier.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Navmesh\NavmeshAdd.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Navmesh\NavmeshCut.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Navmesh\RelevantGraphSurface.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Navmesh\TileHandlerHelper.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Pathfinders\ConnectionType.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\RVO\RVOController.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\RVO\RVONavmesh.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\RVO\RVOObstacle.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\RVO\RVOSimulator.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\RVO\RVOSquareObstacle.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Utilities\AstarChecksum.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Utilities\AstarMemory.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Utilities\AstarProfiler.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Utilities\DotNetReplacements.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Utilities\LockFreeStack.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Utilities\ProfileHelper.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Utilities\UnityReferenceHelper.cs" />
+    <Compile Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\changelog.cs" />
+    <Compile Include="Assets\Scripts\Actor\Actor\Actor.cs" />
+    <Compile Include="Assets\Scripts\Actor\Actor\ActorHolder.cs" />
+    <Compile Include="Assets\Scripts\Actor\ActorManager.cs" />
+    <Compile Include="Assets\Scripts\Actor\ActorType.cs" />
+    <Compile Include="Assets\Scripts\Asset\EffectBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Asset\IOTools.cs" />
+    <Compile Include="Assets\Scripts\Asset\Resource\AnimationClipAsset.cs" />
+    <Compile Include="Assets\Scripts\Asset\Resource\Asset.cs" />
+    <Compile Include="Assets\Scripts\Asset\Resource\AudioAsset.cs" />
+    <Compile Include="Assets\Scripts\Asset\Resource\BinaryAsset.cs" />
+    <Compile Include="Assets\Scripts\Asset\Resource\BundleAsset.cs" />
+    <Compile Include="Assets\Scripts\Asset\Resource\EditorHelper.cs" />
+    <Compile Include="Assets\Scripts\Asset\Resource\EffectAsset.cs" />
+    <Compile Include="Assets\Scripts\Asset\Resource\ModelAsset.cs" />
+    <Compile Include="Assets\Scripts\Asset\Resource\SceneAsset.cs" />
+    <Compile Include="Assets\Scripts\Asset\Resource\TextureAsset.cs" />
+    <Compile Include="Assets\Scripts\Asset\Resource\UGUIAtlasAsset.cs" />
+    <Compile Include="Assets\Scripts\Asset\Resource\UGUIPageAsset.cs" />
+    <Compile Include="Assets\Scripts\Asset\ResourceManager\AnimationClipAssetManager.cs" />
+    <Compile Include="Assets\Scripts\Asset\ResourceManager\AssetManager.cs" />
+    <Compile Include="Assets\Scripts\Asset\ResourceManager\AudioAssetManager.cs" />
+    <Compile Include="Assets\Scripts\Asset\ResourceManager\EffectAssetManager.cs" />
+    <Compile Include="Assets\Scripts\Asset\ResourceManager\EffectLevel.cs" />
+    <Compile Include="Assets\Scripts\Asset\ResourceManager\Holder\AnimationHolder.cs" />
+    <Compile Include="Assets\Scripts\Asset\ResourceManager\Holder\GuiHolder.cs" />
+    <Compile Include="Assets\Scripts\Asset\ResourceManager\Holder\ImageHolder.cs" />
+    <Compile Include="Assets\Scripts\Asset\ResourceManager\Holder\InastanceAssetRefHolder.cs" />
+    <Compile Include="Assets\Scripts\Asset\ResourceManager\Holder\ModelAnimatorHolder.cs" />
+    <Compile Include="Assets\Scripts\Asset\ResourceManager\Holder\PrefabMaterialHolder.cs" />
+    <Compile Include="Assets\Scripts\Asset\ResourceManager\Holder\UIImageHolder.cs" />
+    <Compile Include="Assets\Scripts\Asset\ResourceManager\ModelAssetManager.cs" />
+    <Compile Include="Assets\Scripts\Asset\ResourceManager\SceneAssetManager.cs" />
+    <Compile Include="Assets\Scripts\Asset\ResourceManager\TextureAssetManager.cs" />
+    <Compile Include="Assets\Scripts\Asset\ResourceManager\UGUIAtlasAssetManager.cs" />
+    <Compile Include="Assets\Scripts\Asset\ResourceManager\UGUIPageAssetManager.cs" />
+    <Compile Include="Assets\Scripts\Common\ActionManager.cs" />
+    <Compile Include="Assets\Scripts\Common\CommonObjectPool.cs" />
+    <Compile Include="Assets\Scripts\Common\CoroutineManager.cs" />
+    <Compile Include="Assets\Scripts\Common\DataStructure\BlockingQueue.cs" />
+    <Compile Include="Assets\Scripts\Common\DataStructure\BlockingSequenceQueue.cs" />
+    <Compile Include="Assets\Scripts\Common\DataStructure\Map.cs" />
+    <Compile Include="Assets\Scripts\Common\DataStructure\NoneBlockingSequenceQueue.cs" />
+    <Compile Include="Assets\Scripts\Common\DoActionInterval.cs" />
+    <Compile Include="Assets\Scripts\Common\DontDestroyOnLoadFlag.cs" />
+    <Compile Include="Assets\Scripts\Common\Effect\GlassEffect.cs" />
+    <Compile Include="Assets\Scripts\Common\Event\GameEvent.cs" />
+    <Compile Include="Assets\Scripts\Common\Event\GameEventDispatcher.cs" />
+    <Compile Include="Assets\Scripts\Common\IRecycleObject.cs" />
+    <Compile Include="Assets\Scripts\Common\IdAssginer.cs" />
+    <Compile Include="Assets\Scripts\Common\MonoLibs\Locale.cs" />
+    <Compile Include="Assets\Scripts\Common\MonoLibs\Mono.Math.Prime.Generator\NextPrimeFinder.cs" />
+    <Compile Include="Assets\Scripts\Common\MonoLibs\Mono.Math.Prime.Generator\PrimeGeneratorBase.cs" />
+    <Compile Include="Assets\Scripts\Common\MonoLibs\Mono.Math.Prime.Generator\SequentialSearchPrimeGeneratorBase.cs" />
+    <Compile Include="Assets\Scripts\Common\MonoLibs\Mono.Math.Prime\ConfidenceFactor.cs" />
+    <Compile Include="Assets\Scripts\Common\MonoLibs\Mono.Math.Prime\PrimalityTests.cs" />
+    <Compile Include="Assets\Scripts\Common\MonoLibs\Mono.Math\BigInteger.cs" />
+    <Compile Include="Assets\Scripts\Common\MonoLibs\Mono.Security.Cryptography\ARC4Managed.cs" />
+    <Compile Include="Assets\Scripts\Common\MonoLibs\Mono.Security.Cryptography\CryptoTools.cs" />
+    <Compile Include="Assets\Scripts\Common\MonoLibs\Mono.Security.Cryptography\DHKeyGeneration.cs" />
+    <Compile Include="Assets\Scripts\Common\MonoLibs\Mono.Security.Cryptography\DHParameters.cs" />
+    <Compile Include="Assets\Scripts\Common\MonoLibs\Mono.Security.Cryptography\DiffieHellman.cs" />
+    <Compile Include="Assets\Scripts\Common\MonoLibs\Mono.Security.Cryptography\DiffieHellmanManaged.cs" />
+    <Compile Include="Assets\Scripts\Common\MonoLibs\Mono.Security.Cryptography\RC4.cs" />
+    <Compile Include="Assets\Scripts\Common\MonoLibs\Mono.Xml\MiniParser.cs" />
+    <Compile Include="Assets\Scripts\Common\MonoLibs\Mono.Xml\SecurityParser.cs" />
+    <Compile Include="Assets\Scripts\Common\ShaderList.cs" />
+    <Compile Include="Assets\Scripts\Common\Templates\SingletonBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Common\Templates\SingletonMonoBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Common\Templates\SingletonTemplate.cs" />
+    <Compile Include="Assets\Scripts\Common\Utils\GlobalShaderTimeFix.cs" />
+    <Compile Include="Assets\Scripts\Common\Utils\ObjectGameEventSet.cs" />
+    <Compile Include="Assets\Scripts\EventID.cs" />
+    <Compile Include="Assets\Scripts\Extensions\BaseBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Extensions\BigEndian.cs" />
+    <Compile Include="Assets\Scripts\Extensions\StringExtension.cs" />
+    <Compile Include="Assets\Scripts\Logic\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Manager\InputManager.cs" />
+    <Compile Include="Assets\Scripts\Manager\ResHelper.cs" />
+    <Compile Include="Assets\Scripts\Stream\DataInputStream.cs" />
+    <Compile Include="Assets\Scripts\Stream\DataOutputStream.cs" />
+    <Compile Include="Assets\TestArt\Script\ASTest.cs" />
+    <Compile Include="Assets\TestArt\Script\ActorPathFinding.cs" />
+    <Compile Include="Assets\TestArt\Script\MyTileHandlerHelper.cs" />
+    <Compile Include="Assets\TestArt\Script\PathfindingUtility.cs" />
+    <Compile Include="Assets\TestArt\Script\UpdateGraph.cs" />
+    <Compile Include="Assets\TestArt\TestFrame\CMD.cs" />
+    <Compile Include="Assets\TestArt\TestFrame\CircularBuffer.cs" />
+    <Compile Include="Assets\TestArt\TestFrame\Client.cs" />
+    <Compile Include="Assets\TestArt\TestFrame\FrameMsgID.cs" />
+    <Compile Include="Assets\TestArt\TestFrame\FrameUpdate.cs" />
+    <Compile Include="Assets\TestArt\TestFrame\MessageData.cs" />
+    <Compile Include="Assets\TestArt\TestFrame\MyByteBuffer.cs" />
+    <Compile Include="Assets\TestArt\TestFrame\NetMsgHandler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\AstarPathfindingEditor\Editor\EditorAssets\Materials\Navmesh.shader" />
+    <None Include="Assets\AstarPathfindingEditor\Editor\EditorAssets\Materials\NavmeshOutline.shader" />
+    <None Include="Assets\Resources\GlassBlur.shader" />
+    <None Include="Assets\Resources\Shaders\AddOn\FairyGUI-BlurFilter.shader" />
+    <None Include="Assets\Resources\Shaders\FairyGUI-BMFont.shader" />
+    <None Include="Assets\Resources\Shaders\FairyGUI-Image.shader" />
+    <None Include="Assets\Resources\Shaders\FairyGUI-Text-Brighter.shader" />
+    <None Include="Assets\Resources\Shaders\FairyGUI-Text.shader" />
+    <None Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Plugins\Clipper\ClipperLicense.txt" />
+    <None Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Plugins\DotNetZip\DotNetZipLicense.txt" />
+    <None Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Plugins\Poly2Tri\Poly2TriLicense.txt" />
+    <None Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Plugins\dependencies.txt" />
+    <None Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Readme.txt" />
+    <None Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\Readme_upgrading.txt" />
+    <None Include="Assets\Scripts\Actor\AI\AstarPathfindingProject\link.xml" />
+    <None Include="Assets\Scripts\Common\MonoLibs\Mono.Xml" />
+    <None Include="Assets\Shaders\Shadow-Illumin-Diffuse.shader" />
+    <None Include="Assets\Shaders\T4M\PreviewT4M.shader" />
+    <None Include="Assets\Shaders\T4M\PreviewT4M1.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel1\T4M 2 Textures Auto BeastLM 2DrawCall.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel1\T4M 2 Textures ManualAdd BeastLM_1DC.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel1\T4M 2 Textures ManualAdd CustoLM 1DC.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Bump\T4M 2 TexturesBumped Mobile.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Bump\T4M 2 TexturesBumped.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Bump\T4M 3 TexturesBumped Mobile.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Bump\T4M 3 TexturesBumped.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Bump\T4M 4 TexturesBumped.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\BumpSpec\T4M 2 TexturesBumpSpec Mobile.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\BumpSpec\T4M 2 TexturesBumpSpec.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\BumpSpec\T4M 3 TexturesBumpSpec.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Diffuse\T4M 2 Textures.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Diffuse\T4M 3 Textures.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Diffuse\T4M 4 Textures.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Diffuse\T4M 5 Textures.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Diffuse\T4M 6 Textures.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Diffuse\T4M World Projection Shader.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\DirectionLM\T4M 2 TexturesBumped DLM mobile.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\DirectionLM\T4M 2 TexturesBumped DLM.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\DirectionLM\T4M 3 TexturesBumped DLM.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Specular\T4M 2 Textures Spec.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Specular\T4M 3 Textures Spec.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Specular\T4M 4 Textures Spec.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Toon\T4M 2 Textures Toon.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Toon\T4M 3 Textures Toon.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Toon\T4M 4 Textures Toon.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Unified\T4M 2 TexturesUnified.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Unified\T4M 3 TexturesUnified.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Unified\T4M 4 TexturesUnified.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Unlit\2TexturesUnlit.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Unlit\3TexturesUnlit.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Unlit\4TexturesUnlit.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Unlit\5TexturesUnlit.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Unlit\6TexturesUnlit.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Unlit\6TexturesUnlitNoLM.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel2\Unlit\T4M World Projection Shader Unlit%2BLM.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel3\Bump\T4M 2 TexturesBump.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel3\Bump\T4M 3 TexturesBump.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel3\Bump\T4M 4 TexturesBump.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel3\BumpSpec\T4M 2 TexturesBumpSpec.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel3\BumpSpec\T4M 3 TexturesBumpSpec.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel3\BumpSpec\T4M 4 TexturesBumpSpec.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel3\Diffuse\T4M 2 Textures.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel3\Diffuse\T4M 3 Textures.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel3\Diffuse\T4M 4 Textures.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel3\Diffuse\T4M 5 Textures.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel3\Diffuse\T4M 6 Textures.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel3\Specular\T4M 2 TexturesSpec.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel3\Specular\T4M 3 TexturesSpec.shader" />
+    <None Include="Assets\Shaders\T4M\ShaderModel3\Specular\T4M 4 TexturesSpec.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

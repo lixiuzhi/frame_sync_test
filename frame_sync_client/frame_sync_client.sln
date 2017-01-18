@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frame_sync_client.Plugins", "frame_sync_client.Plugins.csproj", "{51503021-8BF4-0903-D053-340CADE52943}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frame_sync_client", "frame_sync_client.csproj", "{6EAD49EC-84A9-58BB-C2B3-3CBFF75C7F5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frame_sync_client.Editor", "frame_sync_client.Editor.csproj", "{DB98BD26-A2D3-3F10-F758-929F9DE4FBBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51503021-8BF4-0903-D053-340CADE52943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51503021-8BF4-0903-D053-340CADE52943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51503021-8BF4-0903-D053-340CADE52943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51503021-8BF4-0903-D053-340CADE52943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EAD49EC-84A9-58BB-C2B3-3CBFF75C7F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EAD49EC-84A9-58BB-C2B3-3CBFF75C7F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EAD49EC-84A9-58BB-C2B3-3CBFF75C7F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EAD49EC-84A9-58BB-C2B3-3CBFF75C7F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB98BD26-A2D3-3F10-F758-929F9DE4FBBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB98BD26-A2D3-3F10-F758-929F9DE4FBBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB98BD26-A2D3-3F10-F758-929F9DE4FBBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB98BD26-A2D3-3F10-F758-929F9DE4FBBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
